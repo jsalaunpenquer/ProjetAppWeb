@@ -6,6 +6,7 @@
         <app-appareil></app-appareil>
         <app-appareil></app-appareil>
         <app-appareil></app-appareil>
+        <button class="btn btn-success" [disabled]="!isAuth" (click)="onAllumer()">Tout allume</button>
       </ul>
     </div>
   </div>
